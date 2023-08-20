@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.box-container{
+    display : flex;
+    justify-content: center;
+}
+
+.box{
+    height: 150px;
+    width : 150px;
+    margin : 1rem 0.5rem;
+    border-radius: 20%;
+    border : 0.1rem solid rgba(0, 0, 0, 0.341);
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.purple{
+    background-color: purple;
+}
+
+.flash{
+    background-color : white;
+}
+.userFlash{
+    background-color : rgba(128, 128, 128, 0.415);
+}
+
+h3{
+    margin : 1px;
+    font-size: 2.5rem;
+}
+h1{
+    font-size : 5rem;
+}
+.box-container{
+    margin-top : 2rem;
+}
+
+
+@media (max-width: 1100px){
+    body{
+        background-size: auto;
+    }
+}
+
+
+@media (max-width: 700px){
+    h1{
+        font-size : 4rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    body{
+        background-size : auto;
+    }
+}
